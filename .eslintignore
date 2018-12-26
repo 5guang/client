@@ -1,0 +1,11 @@
+build/*.js
+config/*.js
+mock/**/*
+packages/**/*
+src/utils/BMapUtil.js
+src/utils/BMapUtils.js
+src/utils/rem.js
+src/lib/**/*
+test/**/*.js
+vue.config.js
+main.js

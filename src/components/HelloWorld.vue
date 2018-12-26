@@ -31,10 +31,14 @@
 </template>
 
 <script>
+  import {getTestData} from '@/services/moduleA'
 export default {
   name: 'HelloWorld',
   props: {
     msg: String,
+  },
+  created() {
+    getTestData();
   },
 };
 </script>
